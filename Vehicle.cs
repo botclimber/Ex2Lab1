@@ -3,7 +3,8 @@
  * Date         : 2019-04-04
  * version      : v0.1
  * 
- * Description  : Gerir serviços de uma oficina (Ex2Lab2)
+ * Description  : Class para fazer a destinção dos veiculos (neste caso:
+ *                motorizadas e bicicletas).
  * */
 
 using System;
@@ -14,12 +15,7 @@ using System.Threading.Tasks;
 
 namespace Ex2Lab1
 {
-    class Program
+    class Vehicle
     {
-        static void Main(string[] args)
-        {
-
-
-        }
     }
 }
