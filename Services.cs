@@ -17,5 +17,7 @@ namespace Ex2Lab1
 {
     class Services
     {
+
+        
     }
 }
