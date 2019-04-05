@@ -18,8 +18,6 @@ namespace Ex2Lab1
     {
         static void Main(string[] args)
         {
-            
-
         }
     }
 }

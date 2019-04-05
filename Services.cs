@@ -17,13 +17,16 @@ namespace Ex2Lab1
 {
     class Services
     {
-        enum VEHICLE
-        {
-            mota,
-            bike
-        }
+
+        public int ServiceType { get; }
+        public string Desc { get; set; }
+        public DateTime Date { get; }
+
+        const int MAX = 10;
+        public static Services[] services = new Services[MAX];
 
 
-        
+                   
+
     }
 }

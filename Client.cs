@@ -16,6 +16,8 @@ namespace Ex2Lab1
 {
     class Client
     {
+        const int MAXVEHICLE = 10;
+        Vehicle[] vehicles = new Vehicle[MAXVEHICLE];
 
         public string Name { get; }
         public int Nif { get; }
