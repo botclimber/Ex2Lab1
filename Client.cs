@@ -16,22 +16,23 @@ namespace Ex2Lab1
 {
     class Client
     {
-        public string name { get; }
-        public int nif { get; }
-        public string tele { get; }
+
+        public string Name { get; }
+        public int Nif { get; }
+        public string Tele { get; }
 
         public Client(string name, int nif, string tele)
         {
 
-            this.name = name;
-            this.nif = nif;
-            this.tele = tele;
+            this.Name = name;
+            this.Nif = nif;
+            this.Tele = tele;
 
         }
 
         public override string ToString()
         {
-            return name + " | " + nif + " | " + tele;
+            return Name + " | " + Nif + " | " + Tele;
         }
 
     }
