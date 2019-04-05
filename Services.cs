@@ -17,6 +17,12 @@ namespace Ex2Lab1
 {
     class Services
     {
+        enum VEHICLE
+        {
+            mota,
+            bike
+        }
+
 
         
     }
